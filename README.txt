@@ -15,7 +15,7 @@ Z - look down,
 [ - rotate screen left 
 ] - rotate screen right
 
-Sasha Chukov (sash@tspu.edu.ru), 2000
+Sasha Chukov (sash at tspu dot edu dot ru), 2000
 
 
 Original source of Boom3D engine for Win9x/NT and DOS (also Map Editor) can be found at 
