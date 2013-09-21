@@ -116,6 +116,7 @@ gloomWin::DirectConnected( direct_buffer_info *info )
 /*
  * MMX optimized linear converter CMAP_8 to native RGB_15
  */
+ /*
 void lineCpy(uint8 *dst, uint8 *src, uint32 l)
 {
 	asm(
@@ -171,6 +172,7 @@ void lineCpy(uint8 *dst, uint8 *src, uint32 l)
 	: "memory", "%eax", "%edi", "%edx", "%esi", "%ecx"
 	);
 }
+*/
 
 /*
  * Color masks for rgb24->rgb15 converter
@@ -212,8 +214,8 @@ DrawingThread(void *data)
 					r = frame_buffer;
 					y = 0;
 					while (y < w->g_height) {
-//						memcpy(p, r, width);//frame_buffer, 256*256);
-						lineCpy(p, r, width);//frame_buffer, 256*256);
+						memcpy(p, r, width);//frame_buffer, 256*256);
+//						lineCpy(p, r, width);//frame_buffer, 256*256);
 						y++; p += adder; r += width;
 					}
 //				}

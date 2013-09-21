@@ -158,7 +158,8 @@ void Tclip::addbeg(Tmonotone *poly)
 void Tclip::addend(Tmonotone *poly)
 {
   if (end) {
-    for (Ttrap *t=poly->traps;t->next;t=t->next);
+    Ttrap *t;
+    for (t=poly->traps;t->next;t=t->next);
     t->next=end;
     coord2d x=poly->xmax;
     poly->xmax=xmax;
