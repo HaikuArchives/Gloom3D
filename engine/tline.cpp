@@ -349,7 +349,8 @@ void Tline::draw( Tsector *owner )
 
   // restores cur_clip
   if (mph.traps) {
-    for (Ttrap *t=mph.traps;t->next;t=t->next);
+    Ttrap *t;
+    for (t=mph.traps;t->next;t=t->next);
     cur_clip->last=t;
   }
   else {

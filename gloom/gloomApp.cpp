@@ -24,8 +24,8 @@ gloomApp::gloomApp() : BApplication("application/x-vnd.beGloom")
 	app_info		info;
 
 	char			buf[100];
-	char*			appPath;
-	char*			appLeaf;
+	const char*		appPath;
+	const char*		appLeaf;
 
 	be_app->GetAppInfo(&info);
 	entry.SetTo(&info.ref);

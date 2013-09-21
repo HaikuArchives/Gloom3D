@@ -75,7 +75,8 @@ bool Tmap::move(coord3d dx,coord3d dy,coord3d dz,angle ax,angle ay,angle az)
       for (int i=0;i<clinenum-1;i++) {
         int j;
         for (j=i;j<clinenum;j++) {
-          for (int k=i;k<clinenum;k++)
+          int k;
+          for (k=i;k<clinenum;k++)
             if (k!=j && clines[j]->before(clines[k])) break;
           if (k==clinenum) break;
         }

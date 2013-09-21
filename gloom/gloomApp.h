@@ -6,6 +6,7 @@
 
 #include <Application.h>
 #include <FilePanel.h>
+#include <Roster.h>
 
 class gloomApp : public BApplication
 {
