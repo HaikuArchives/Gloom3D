@@ -19,4 +19,4 @@ Sasha Chukov (sash at tspu dot edu dot ru), 2000
 
 
 Original source of Boom3D engine for Win9x/NT and DOS (also Map Editor) can be found at 
-http://www.geocities.com/SiliconValley/Bay/2234
+http://www.geocities.ws/SiliconValley/Bay/2234
