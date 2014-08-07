@@ -37,14 +37,14 @@ gloomApp::gloomApp() : BApplication("application/x-vnd.beGloom")
 	memset(buf, 0, 100);	
 	memcpy(buf, appPath, (strlen(appPath)-strlen(appLeaf)) );
 
-	strcpy(&buf[(strlen(appPath)-strlen(appLeaf))], "level.boo" );
+	strcpy(&buf[(strlen(appPath)-strlen(appLeaf))], "level.gloom3d" );
 
 //	printf("--%s\n", buf);
 //	openPanel = new BFilePanel(B_OPEN_PANEL, new BMessenger(this), NULL,
 //				B_FILE_NODE, false);
 //	openPanel->Show();
-//	BEntry entry("./level.boo");
-//	BPath path1("./level.boo");
+//	BEntry entry("./level.gloom3d");
+//	BPath path1("./level.gloom3d");
 //	entry.GetPath(&path);
 	gloomWin *wnd = new gloomWin(buf);
 }
