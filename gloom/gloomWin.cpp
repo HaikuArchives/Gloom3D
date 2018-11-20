@@ -12,8 +12,8 @@
 #include "draw.h"
 #include "geom.h"
 
-#define	WIN_WIDTH	320
-#define WIN_HEIGHT	240
+#define	WIN_WIDTH	1024
+#define WIN_HEIGHT	768
 
 uint8 *frame_buffer;
 int32 DrawingThread(void *data);
