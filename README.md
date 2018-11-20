@@ -13,4 +13,4 @@ Simply go into Gloom3D directory and type ``make``.
 Copyright
 ------------
 
-Original 2000 version by Sasha Chukov, enhanced and updated for Haiku in 2018 by Arnav Bhatt.
+Original 2000 version by Sasha Chukov.
