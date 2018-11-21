@@ -8,7 +8,7 @@
 ## file:///system/develop/documentation/makefile-engine.html
 
 # The name of the binary.
-NAME = Gloom#D
+NAME = Gloom3D
 
 # The type of binary, must be one of:
 #	APP:	Application
